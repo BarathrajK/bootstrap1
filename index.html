@@ -933,7 +933,7 @@
                                 </button>
                             </h2>
                             <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
-                                data-bs-parent="#accordionExample">
+                                data-bs-parent="#accordionExample" >
                                 <div class="accordion-body">
                                     Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
                                     est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
@@ -957,10 +957,10 @@
                 <div class="col-lg-4">
                     <div class="card-recent-card">
                         <div class="card-image">
-                            <img src="./images/r1.jpg" class="card-img-top" alt="...">
+                            <img src="./images/r1.jpg" alt="...">
                         </div>
                         <p class="Post-category">Politics</p>
-                        <h2 class="post-title" ><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
+                        <h2 class="post-title"><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
                         <div class="card-body">
                             <img src="./images/r4.jpg">
                             <p class="card-text">Maria Doe</p>
@@ -973,10 +973,10 @@
                 <div class="col-lg-4">
                     <div class="card-recent-card">
                         <div class="card-image">
-                            <img src="./images/r2.jpg" class="card-img-top" alt="...">
+                            <img src="./images/r2.jpg" alt="...">
                         </div>
                         <p class="Post-category">Politics</p>
-                        <h2 class="post-title" ><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
+                        <h2 class="post-title"><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
                         <div class="card-body">
                             <img src="./images/r5.jpg">
                             <p class="card-text">Maria Doe</p>
@@ -989,10 +989,10 @@
                 <div class="col-lg-4">
                     <div class="card-recent-card">
                         <div class="card-image">
-                            <img src="./images/r3.jpg" class="card-img-top" alt="...">
+                            <img src="./images/r3.jpg" alt="...">
                         </div>
                         <p class="Post-category">Politics</p>
-                        <h2 class="post-title" ><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
+                        <h2 class="post-title"><a href="#">Dolorum optio tempore voluptas dignissimos</a></h2>
                         <div class="card-body">
                             <img src="./images/r6.jpg">
                             <p class="card-text">Maria Doe</p>
@@ -1004,6 +1004,73 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis
+                    dolorem dolore earum</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="index">
+                        <div class="info-item">
+                            <i class="ion-location"></i>
+                            <div class="info-box">
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ion-email"></i>
+                            <div class="info-box">
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ion-iphone"></i>
+                            <div class="info-box">
+                                <h4>Call:</h4>
+                                <p>+1 5589 55488 55</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="ion-clock"></i>
+                            <div class="info-box">
+                                <h4>Open Hours:</h4>
+                                <p>Mon-Sat: 11AM - 23PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-lg-8">
+                        <form action="forms/contact.php" method="post" role="form" class="form-control">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="text" class="form"  name="name" id="name" size="45"  placeholder=" Enter your name" required>
+                                      </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="mb-3">
+                                        <input type="email" class="form" name="email" id="email" size="45" placeholder="Enter your email" required>
+                                      </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" name="subject" id="subject" placeholder="subject" size="103" required>
+                            </div>
+                            <div class="form2">
+                            <textarea  name="massage"  rows="4" placeholder="massage" cols="103" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">send Massage</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
     </section>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
