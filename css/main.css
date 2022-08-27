@@ -16,7 +16,6 @@
     text-decoration: none;
     color: #fff;
     white-space: 20px;
-
 }
 .col-lg-6 h4{
     font-size: 48px;
@@ -50,7 +49,6 @@
     padding: 60px  20px;
     border-radius: 10px;
 }
-
 .banner-info{
     padding-bottom: 100px;
     background-color: #008374;
@@ -131,9 +129,9 @@ p{
     background:#77e0d4bb, rgba(10, 245, 217, 0.781) 52%;
     border-radius: 50%;
     display: block;
-    position: absolute;
-    left: calc(50% - 25px);
-    top: calc(50% - -90px);
+    position: relative;
+    left: calc(44% - 13px);
+    top: -230px;
     overflow: hidden;
 }
 .play-btn::before{
@@ -176,7 +174,6 @@ p{
 }
 .clients-id  img:hover{
     transform: scale(1.2);
-
 }
 .clients-id img{
     max-width: 60%;
@@ -225,7 +222,6 @@ p{
     color: aliceblue;
     padding-left: 8px;
     padding-top: 9px;
-
 }
 .call-action .container .cal-items h3{
     color: #fff;
@@ -236,7 +232,6 @@ p{
 .call-action .container p{
     color: #fff;
     margin-bottom: 20px;
-
 }
 .call-action .container .btn{
     font-weight: 500;
@@ -275,7 +270,6 @@ p{
     z-index: 1;
     top: 10px;
     right: -20px;
-
 }
 .service-item{
     padding: 40px;
@@ -296,9 +290,7 @@ p{
 }
 .play :hover{
     transform: scale(1.2);
-
 }
-
 .link{
     color: #00796b;
 }
@@ -311,7 +303,6 @@ p{
     display: inline-block;
     border-bottom: 4px solid #eeeeee;
 }
-
 .service-item p{
     font-size: 12px;
 }
@@ -385,7 +376,6 @@ p{
 }
 .portfolio-head ul li:hover{
     color: #008d7d;
-
 }
 .team .card-body{
     text-align: center;
@@ -408,7 +398,6 @@ p{
 }
 .social-team a:hover{
     color: #00796b;
-
 }
 .team .card{
     box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
@@ -420,7 +409,6 @@ p{
 .content-faq h3{
     font-weight: 400;
     font-size: 36px;
-
 }
 .content-faq p{
     font-size: 15px;
@@ -438,14 +426,13 @@ p{
     margin: -30px 
     0px 15px 30px;
     overflow: hidden;
-    
+
 }
 .Post-category{
     font-size: 16px;
     color: #6f6f6f;
     margin-bottom: 10px;
 }
-
 .post-title a{
     color: #222;
     text-decoration: none;
@@ -465,6 +452,7 @@ p{
    position: absolute;
    left: 15px;
    right: 10px;
+   width: 70px;
    width: 60px;
    height: auto;
    border-radius: 50%;
@@ -569,21 +557,37 @@ p{
 .form-control textarea{
     padding: 10px 12px;
 }
-
-
-
-
-
-
-
-
-
-    
-
-
-    
-
-
-
-
-
+.foot ul li a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+.foot ul{
+    list-style: none;
+}
+.footer{
+    font-size: 14px;
+    background-color:#009282;
+    padding: 50px 0;
+    color: white;
+}
+.footer-logo span{
+    line-height: 0;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-logo  a{
+    text-decoration: none;
+}
+.footer-links a{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+  
+}
