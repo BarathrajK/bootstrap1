@@ -1,1 +1,5 @@
- 
+ @media(min-width:578px){
+    .top-header{
+        max-width: 577px;
+    }
+ }
